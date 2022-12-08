@@ -1,0 +1,114 @@
+@media screen and (min-width: 2560px) {
+    .exhanges{
+        padding-bottom: 50px;
+    }
+    .header{
+        padding-top: 20px;
+    }
+    .content{
+        padding-top:600px;
+    }
+    .container{
+        max-width: 1440px;
+    }
+    .welcome{
+        font-size: 70px;
+    }
+    .main{
+        background-size: 2560px 1614px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .exhanges{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .main{
+        background-size: 1024px 753px;
+    }
+    .img_about_png{
+        width: 412px;
+        height: 412px;
+    }
+    .text_about{
+        padding-top: 100px;
+    }
+    .ftx,.binance,.huobi{
+        padding: 0;
+    }
+    .exhanges{
+        padding-bottom: 20px;
+    }
+    .content_section3{
+        padding-top: 120px;
+    }
+}
+    
+@media screen and (max-width:768px){
+    .nav_link1{
+        font-size: 16px;
+    }
+    .nav_link{
+        font-size: 16px;
+    }
+    .nav_button{
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+    .main{
+        background-size: 768px 565px;
+    }
+    .social_network{
+        padding-top: 20px;
+    }
+    .content{
+        padding-top: 200px;
+    }
+    .welcome{
+        font-size: 35px;
+    }
+    .welcome_down{
+        font-size: 20px;
+    }
+    .main_button{
+        font-size: 14px;
+        width: 150px;
+    }
+    .img_about_png{
+        width: 300px;
+        height: 300px;
+        padding-left: 30px;
+    }
+    .window_about{
+        font-size: 35px;
+    }
+    .text_about{
+        font-size: 16px;
+        width: 400px;
+    }
+    .ftx_icon,.binance_icon,.huobi_icon{
+        width: 200px;
+        height: 200px;
+    }
+    .quantity_inner{
+        margin-left: 33px;
+    }
+    .buy_button{
+        font-size: 25px;
+    }
+    .cost,.cost2,.cost3{
+        font-size: 25px;
+    }
+    .text_about_button{
+        font-size: 14px;
+    }
+    .limit_buy{
+        font-size: 30px;
+    }
+    .text_up_exhanges{
+        font-size: 25px;
+    }
+}

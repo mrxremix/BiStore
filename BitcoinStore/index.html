@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Lanclushka.com</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/adaptive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="./img_icons/free-icon-bitcoin-8973982 (1).png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <a href="/">
+                <div class="header_logo">
+                    <img src="./img_icons/free-icon-bitcoin-8973982 (1).png" class="header_logo_png">
+                </div>
+            </a>
+                <nav class="nav">
+                    <a href="#ex1" class="nav_link1">About</a>
+                    <a href="#ex2" class="nav_link">Price</a>
+                    <a href="home.html" class="nav_link">Home</a>
+                    <a href="#ex3" class="nav_link">Our team</a>
+                    <button class="nav_button" onclick="document.getElementById('id01').style.display='block'">Sign in</button>
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                      class="close" title="Close Modal">×</span>
+                      
+                        <!-- Модальный контент -->
+
+                        <form class="modal-content animate" action="/action_page.php">
+                          <div class="imgcontainer">
+                            <img src="./img_icons/free-icon-spiderman-1090806.png" alt="Avatar" class="avatar">
+                          </div>
+                          <div class="container_login">
+                            <label for="uname" class="username">Username</label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+                            <label for="psw" class="password">Password</label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <button class="login_button" type="submit">Login</button>
+                            <label class="remember">
+                              <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                          </div>
+                          <div class="container_cancel">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#" class="psw.a">password?</a></span>
+                          </div>
+                        </form>
+                      </div>
+                </nav>
+                <div class="social_network">
+                    <a href="#"><div class="instagram"><img src="./img_icons/free-icon-instagram-2111463.png" class="instagram_png"></div></a>
+                    <a href="#"><div class="facebook"><img src="./img_icons/free-icon-facebook-174848.png" class="facebook_png"></div></a>
+                    <a href="#"><div class="twitter"><img src="./img_icons/free-icon-twitter-3536424.png" class="twitter_png"></div></a>
+                    <a href="#"><div class="telegram"><img src="./img_icons/telegram.png" class="telegram_png"></div></a>
+                </div>
+            </div>
+        </div>
+    </header>
+<main class="main">
+    <div class="container">
+        <div class="content">
+        <div class="welcome">Welcome to Bistore</div>
+        <div class="welcome_down">Here you can find a different course for a more profitable purchase in your opinion</div>
+        <a href="#ex1" class="main_button">Let me show you</a>
+        </div>
+    </div>
+</main>
+<section id="ex1" class="section">
+    <div class="container">
+        <div class="content_section">
+            <div class="window_about" data-aos="fade-in">
+                What we do
+            </div>
+            <div class="window_about2" data-aos="fade-in">
+                <div class="img_about">
+                    <img src="./img_icons/barchart_78010.png" class="img_about_png">
+                </div>
+                <div class="text_about">
+            <div class="text1_about"> • We are a company offering something that none of all can offer</div>
+            <div class="text2_about"> • To be more precise, our algorithm analyzes all bitcoin exchange rates and helps people buy what they need</div>
+            <a href="#ex2" class="text_about_button" data-aos="fade-in">Let's try</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section2" >
+    <div class="container">
+        <div class="content_section2">
+        <marquee behavior="alternate" id="ex2" data-aos="fade-in"  class="limit_buy" scrollamount="10">Buy it! The choice is limited.</marquee>
+        <div class="text_up_exhanges" data-aos="fade-in">Here are the exchanges to choose from</div>
+        <div class="exhanges">
+        <div class="ftx" data-aos="fade-in">
+        <img src="./img_icons/free-icon-ftx-7016528 (1).png" class="ftx_icon">
+        <div class="cost">$16.500</div>
+        <div class="quantity_inner">        
+            <button class="bt_minus">
+                <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <input type="text" value="1" size="2" class="quantity" data-max-count="20" />
+            <button class="bt_plus">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+        </div>
+        <div class="buy_div">
+          <a href="#" class="buy_button">buy</a>
+        </div>
+        </div>
+        <div class="binance" data-aos="fade-in">
+            <img src="./img_icons/free-icon-binance-4966255.png" class="binance_icon">
+            <div class="cost2">$16.345</div>
+            <div class="quantity_inner">        
+                <button class="bt_minus">
+                    <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                </button>
+                <input type="text" value="1" size="2" class="quantity" data-max-count="20" />
+                <button class="bt_plus">
+                    <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                </button>
+            </div>
+            <div class="buy_div">
+              <a href="#" class="buy_button">buy</a>
+            </div>
+        </div>
+        <div class="huobi" data-aos="fade-in">
+            <img src="./img_icons/crypto.png" class="huobi_icon">
+            <div class="cost3">$16.000</div>
+            <div class="quantity_inner">        
+                <button class="bt_minus">
+                    <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                </button>
+                <input type="text" value="1" size="2" class="quantity" data-max-count="20" />
+                <button class="bt_plus">
+                    <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                </button>
+            </div>
+            <div class="buy_div">
+              <a href="#" class="buy_button">buy</a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+    <section class="section3">
+        <div class="container">
+            <div class="content_section3">
+                <div class="meetourteam" data-aos="fade-in">
+                    <div class="meetourteam_text">- meet our team -</div>
+            </div>
+            <div class="team" data-aos="fade-in" id="ex3">
+              <div class="teamer1">
+                <img src="./img_icons/free-icon-businessman-606533 (1).png" class="icon_teamer1">
+                <div class="name_teamer1">Kevin</div>
+                <div class="who_teamer1">HR manager</div>
+              </div>
+              <div class="teamer2">
+                <img src="./img_icons/free-icon-person-4427398.png" class="icon_teamer2">
+                <div class="name_teamer2">Artem</div>
+                <div class="who_teamer2">Fullstack Developer</div>
+              </div>
+              <div class="teamer3">
+                <img src="./img_icons/free-icon-question-5948753.png" class="icon_teamer3">
+                <div class="name_teamer3">Anonim</div>
+                <div class="who_teamer3">sponsor</div>
+              </div>
+            </div>
+            <a href="#" class="scrollup">Наверх</a>
+            </div>
+        </div>
+    </section>
+<script src="./js/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./js/js.js"></script>
+</body>
