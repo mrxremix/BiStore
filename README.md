@@ -1,3 +1,3 @@
 # BiStore
-Проект не закончен (адаптив под мобильные устройства)
-Изображения png, т.к svg нет
+My own project. Website for buying cryptocurrencies (fictional)
+There are shortcomings
